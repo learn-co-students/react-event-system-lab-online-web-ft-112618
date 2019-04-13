@@ -12,7 +12,7 @@ export default class EyesOnMe extends React.Component {
   
   render() {
     return (
-      <button type="password" onFocus={this.handleFocus} onBlur={this.handleBlur} ></button>
+      <button onFocus={this.handleFocus} onBlur={this.handleBlur} ></button>
     );
   }
 }
